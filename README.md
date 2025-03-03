@@ -77,3 +77,11 @@ Cada produto terá um `array` de categorias. As categorias que o chibi suportam 
 - Gelado
 
 Documentação / Especificações do Chibi
+
+#### Cálculo do desconto
+Pega-se o preço do banco e aplica a seguinte fórmula:
+```
+                       100 - desconto
+com_desconto = preco * --------------
+                            100
+```
